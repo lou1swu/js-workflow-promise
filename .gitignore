@@ -1,0 +1,8 @@
+node_modules
+*.lock
+*.log
+.vscode
+.idea
+.history
+.DS_Store
+package-lock.json

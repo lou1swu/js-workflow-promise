@@ -1,0 +1,12 @@
+version: 2.1
+
+jobs:
+  build:
+    working_directory: ~/js-workflow-promise
+    docker:
+      - image: circleci/node:11
+    steps:
+      - checkout
+      - run: yarn install
+      - run: yarn --version
+      - run: npm run test
