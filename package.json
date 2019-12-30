@@ -1,6 +1,6 @@
 {
   "name": "js-workflow-promise",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "用类似promise链式调用的方式来做js工作流管理，有利于梳理和简化复杂的业务流程",
   "main": "./dist/index.js",
   "repository": "https://github.com/Lighting-Jack/js-workflow-promise.git",
